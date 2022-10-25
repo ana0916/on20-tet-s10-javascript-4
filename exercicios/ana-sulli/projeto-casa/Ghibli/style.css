@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+
+body {
+
+    background-color: black;
+    background-image: url(/exercicios/ana-sulli/projeto-casa/Ghibli/img/444557\ \(1\).jpg);
+}
+
+
+.header-content {
+   left: 0px;
+    top: 0;
+    width: 4%;
+    height: 100%;
+    background-color:transparent;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    position: absolute;
+  
+}
+
+
+
+.header-content h1 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    color: rgba(14, 25, 32, 0.7);
+    text-transform: uppercase;
+    font-weight: 300;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100vh;
+    margin-top: 100px;
+}
+
+#demo img {
+    cursor: pointer;
+    transition: all 0.5s;
+    cursor: pointer;
+    border-radius: 1em;
+    justify-content: center;
+    margin: 2em;
+    height: 10em;
+
+}
+
+#demo img:hover {
+    transform: scale(1.20);
+    opacity: .7;
+    border-radius: 0;
+    box-shadow: 2px 2px 1px #000000;
+
+}
+
+
+main {
+    top: 20%;
+    font-family: 'Questrial', sans-serif;
+    display: flex;
+    margin: auto 0;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+div {
+    margin-bottom: 2em;
+    margin-left: 2em;
+    margin-top: 10%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    width: 180px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    overflow-x: auto;
+    transition: .3s;
+}
+
+div:hover {
+    background-color: black;
+    transform: scale(1.20);
+    transition: .3s;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+
+
+p {
+    margin-bottom: 1em;
+    align-items: center;
+    text-align: center;
+    color: azure;
+    margin-right: 1em;
+    margin-left: 1em;
+    display: flex;
+}
+
+h2 {
+    align-items: center;
+    font-size: 12px;
+    font-weight: 200;
+    text-shadow: 0.1em 0.1em 0.2em rgb(70, 70, 70);
+    text-transform: uppercase;
+    color: rgb(176, 186, 175);
+    text-align: center;
+}
+
+div:hover h2 {
+    color: white;
+}
+
+footer {
+    font-family: 'Questrial', sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    color: rgba(14, 25, 32, 0.7);
+    position: fixed;
+    left: 0;
+    text-transform: lowercase;
+    bottom: 0;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    
+}
